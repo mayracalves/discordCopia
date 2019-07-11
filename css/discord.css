@@ -1,0 +1,234 @@
+body{
+	background-color: rgba(38, 38, 43,1);
+	color: rgba(255,255,255,1);
+}
+
+a, select, button{
+	color: rgba(255, 255, 255, 1);
+	padding-bottom: 0.2em;
+}
+
+/*footer ---------- */
+.footer{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+
+.footer-nav {
+	display: flex;
+}
+
+.footer-nav-item{
+	width: 20%;
+	display:flex;
+	flex-direction: column;
+}
+
+.footer-dois{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	padding: 2em 0;
+    margin-top: 1.5em;
+    background-image: linear-gradient(to right, rgba(200, 200, 200, 0), rgba(200, 200, 200, 1), rgba(200, 200, 200, 0));
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: top center;
+	height: 5em;
+}
+
+.footer-engloba{
+	display: flex;
+	justify-content: center;
+	padding-top: 4em
+}
+
+.titulo-na-footer{
+	font-weight: bold;
+	padding-bottom: 1em;
+}
+
+.botao-azul{
+    background-color: rgba(114, 137, 218,1);
+    border-radius: 3px;
+    height: 2.8em;
+    width: 10em;
+    text-align: center;
+    font-family: Helvetica,sans-serif;
+    font-size: 0.9em;
+}
+
+.footer-titulo-descricao{
+	font-size:1.5em;
+	font-family: Helvetica,sans-serif;
+}
+
+.footer-descricao{
+	text-transform: uppercase;
+	font-family: Helvetica,sans-serif;
+	padding-top:0.8em;
+	font-size: 0.8em;
+}
+
+/*apresentaçao---------- */
+.entrada{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+	font-size: 2em;
+    text-align: center;
+    padding-top: 2em;
+    font-weight: bold;
+    font-family: Helvetica,sans-serif;
+}
+
+.descricao{
+	text-align: center;
+    padding-top: 1.5em;
+	font-family: Helvetica,sans-serif;
+	width: 50em;
+	line-height: 1.5em;
+}
+
+.botoes{
+	display: flex;
+    padding-top: 1.5em;
+    width: 40em;
+    justify-content: space-around;
+	font-size: 1em;
+}
+
+.botao-um {
+	background-color: white;
+    color: black;
+    border-radius: 3px;
+    height: 2.7em;
+    width: 16em;
+    text-align: center;
+    font-family: Helvetica,sans-serif;
+}
+
+.botao-dois {
+	background-color: rgba(114, 137, 218,1);
+    border-radius: 3px;
+    height: 2.7em;    
+	width: 16em;
+    text-align: center;
+	font-family: Helvetica,sans-serif;
+}
+
+/*nav bar---------- */
+
+.header{}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5em;
+}
+.nav-div-um{
+	width: 60%;
+}
+.nav-div-dois{
+	width: 20%;
+}
+
+.nav-ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: bold;
+}
+
+.botao-login{
+	border-radius: 20px;
+    border: 2px solid white;
+    padding: 0.4em 1em;
+    font-family: Helvetica,sans-serif;
+	font-size: 0.8em;
+}
+
+.icones{
+	font-size:1.5em;
+	color: white;
+}
+
+
+/*animacoes---------- */
+
+.moeda{
+	position: absolute;
+    left: 56%;
+	margin-top: 22em;
+}
+
+.bomba{
+	position: absolute;
+    margin-top: 34em;
+    left: 18%;
+}
+
+.moeda-dois{
+	position: absolute;
+    left: 21%;
+    margin-top: 36em;
+}
+
+.disquete{
+    position: absolute;
+    left: 67%;
+    margin-top: 29em;
+}
+
+.animacao {	
+	-webkit-animation: quica 1s infinite;
+	animation: quica 1.5s infinite;
+
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	
+	-webkit-animation-timing-function: ease-in;
+	animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes quica {
+	from{
+		top: 0;
+	}
+	to {
+		top: 1em;
+	}
+}
+
+@keyframes quica {
+	from{
+		top: 0;
+	}
+	to {
+		top: 1em;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
